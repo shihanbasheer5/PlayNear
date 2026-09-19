@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 348 13% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 348 13% 9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 348 13% 9%;
+    --primary: 65 92% 67%;
+    --primary-foreground: 348 13% 9%;
+    --secondary: 0 0% 95.7%;
+    --secondary-foreground: 348 13% 9%;
+    --muted: 0 0% 95.7%;
+    --muted-foreground: 348 6% 45%;
+    --accent: 65 92% 67%;
+    --accent-foreground: 348 13% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 65 92% 67%;
+    --radius: 1.5rem;
+  }
+
+  .dark {
+    --background: 348 13% 9%;
+    --foreground: 0 0% 98%;
+    --card: 348 13% 11%;
+    --card-foreground: 0 0% 98%;
+    --popover: 348 13% 11%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 65 92% 67%;
+    --primary-foreground: 348 13% 9%;
+    --secondary: 348 10% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 348 10% 16%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 65 92% 67%;
+    --accent-foreground: 348 13% 9%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 348 10% 20%;
+    --input: 348 10% 20%;
+    --ring: 65 92% 67%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-[#ecf95a] selection:text-[#191314];
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Zen / Bento Aesthetic Utilities */
+.zen-card {
+  background-color: #ffffff;
+  border-radius: 1.75rem;
+  border: 1px solid rgba(25, 19, 20, 0.08);
+  box-shadow: 0 10px 30px -10px rgba(25, 19, 20, 0.04);
+}
+
+.zen-card-gray {
+  background-color: #f4f4f4;
+  border-radius: 1.75rem;
+  border: 1px solid rgba(25, 19, 20, 0.06);
+}
+
+.zen-card-lime {
+  background-color: #ecf95a;
+  color: #191314;
+  border-radius: 2.125rem;
+  box-shadow: 0 20px 40px -15px rgba(236, 249, 90, 0.4);
+}
+
+.zen-card-dark {
+  background-color: #191314;
+  color: #ffffff;
+  border-radius: 1.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.35);
+}
+
+.zen-pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  border: 1px solid rgba(25, 19, 20, 0.1);
+  background-color: #f4f4f4;
+  padding: 0.35rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #191314;
+}
+
+.dark .zen-card {
+  background-color: #171a1d;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.dark .zen-pill {
+  background-color: #1e2227;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+/* Custom Sports Glassmorphism & Accent Gradients */
+.sports-gradient {
+  background: linear-gradient(135deg, #191314 0%, #2a2223 100%);
+}
+
+.sports-badge-live {
+  animation: pulse-badge 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-badge {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.04);
+  }
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 114, 128, 0.7);
+}
