@@ -57,35 +57,97 @@ The platform replaces the scattered way local tournaments are traditionally orga
 
 A quick look at the PlayNear platform, including tournament discovery, teams, player dashboards, organizer management, authentication, and tournament workflows.
 
-<div align="center">
+### 🏠 Home & Tournament Discovery
 
-<img src="screenshots/01-home-hero.webp" width="160">
-<img src="screenshots/03-tournaments-discovery.webp" width="160">
-<img src="screenshots/04-interactive-map.webp" width="160">
-<img src="screenshots/05-tournament-details.webp" width="160">
+<table>
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/01-home-hero.webp" width="160" alt="Home Page"><br>
+      <sub><b>Home Page</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/03-tournaments-discovery.webp" width="160" alt="Tournament Discovery"><br>
+      <sub><b>Tournament Discovery</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/04-interactive-map.webp" width="160" alt="Interactive Map"><br>
+      <sub><b>Interactive Map</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/05-tournament-details.webp" width="160" alt="Tournament Details"><br>
+      <sub><b>Tournament Details</b></sub>
+    </td>
+  </tr>
+</table>
 
-<br><br>
+### 👤 Player Features
 
-<img src="screenshots/06-tournament-registration.webp" width="160">
-<img src="screenshots/07-teams-directory.webp" width="160">
-<img src="screenshots/08-dashboard.webp" width="160">
-<img src="screenshots/09-my-teams.webp" width="160">
+<table>
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/06-tournament-registration.webp" width="160" alt="Tournament Registration"><br>
+      <sub><b>Tournament Registration</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/07-teams-directory.webp" width="160" alt="Teams Directory"><br>
+      <sub><b>Teams Directory</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/08-dashboard.webp" width="160" alt="Player Dashboard"><br>
+      <sub><b>Player Dashboard</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/09-my-teams.webp" width="160" alt="My Teams"><br>
+      <sub><b>My Teams</b></sub>
+    </td>
+  </tr>
+</table>
 
-<br><br>
+### 🏆 Tournament Management
 
-<img src="screenshots/10-registered-tournaments.webp" width="160">
-<img src="screenshots/11-organizer-hub.webp" width="160">
-<img src="screenshots/12-organizer-registrations.webp" width="160">
-<img src="screenshots/13-organizer-tournament-manage.webp" width="160">
+<table>
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/10-registered-tournaments.webp" width="160" alt="Registered Tournaments"><br>
+      <sub><b>Registered Tournaments</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/11-organizer-hub.webp" width="160" alt="Organizer Hub"><br>
+      <sub><b>Organizer Hub</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/12-organizer-registrations.webp" width="160" alt="Organizer Registrations"><br>
+      <sub><b>Organizer Registrations</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/13-organizer-tournament-manage.webp" width="160" alt="Tournament Management"><br>
+      <sub><b>Tournament Management</b></sub>
+    </td>
+  </tr>
+</table>
 
-<br><br>
+### ⚙️ Profile & Authentication
 
-<img src="screenshots/14-profile-settings.webp" width="160">
-<img src="screenshots/15-profile-sports.webp" width="160">
-<img src="screenshots/16-signin.webp" width="160">
-<img src="screenshots/17-signup.webp" width="160">
-
-</div>
+<table>
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/14-profile-settings.webp" width="160" alt="Profile Settings"><br>
+      <sub><b>Profile Settings</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/15-profile-sports.webp" width="160" alt="Sports Preferences"><br>
+      <sub><b>Sports Preferences</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/16-signin.webp" width="160" alt="Sign In"><br>
+      <sub><b>Sign In</b></sub>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="screenshots/17-signup.webp" width="160" alt="Sign Up"><br>
+      <sub><b>Sign Up</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
